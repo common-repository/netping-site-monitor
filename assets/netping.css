@@ -1,0 +1,250 @@
+/* wizard box */
+.netping-wizard-box {
+    border: 1px solid lightgray;
+    margin-right: 2%;
+    padding-top: 2px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+/* percentage gaguge */
+.percentageFill {
+    background: linear-gradient(to right, #90ee90 0%, lightgray 0%);
+    height: 20px;
+    font-size: 12px !important;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+/* logo */
+.netping-logo {
+    margin-top: 15px;
+    width: 200px;
+}
+
+/* wizard box content */
+.netping-wizard-content {
+    position: relative;
+    padding: 15px;
+}
+.netping-wizard-content:first-of-type {
+    margin-top: -10px;
+}
+.netping-wizard-content:last-of-type {
+    height: 63px;
+    position: relative;
+}
+
+/* buttons used in wizard */
+.netping-button-left {
+    border-radius: 20px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    padding-top: 3px;
+    float: left;
+}
+.netping-button-right {
+    float: right;
+    border-radius: 20px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    padding-top: 3px;
+}
+
+/* buttons used in menu */
+.netping-button {
+    margin-top: 15px;
+    margin-right: 8px;
+    border-radius: 20px !important;
+    padding-right: 16px !important;
+    padding-left: 12px !important;
+    padding-top: 3px;
+    font-size: 14px !important;
+}
+.netping-button > .dashicons {
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+/* hr divider */
+.netping-wizard-divider {
+    height: 1px;
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+/* Wizard Paragrapfs */
+.wizard-p:first-of-type {
+    padding-top: 10px;
+}
+.wizard-p {
+    font-size: 15px;
+}
+.wizard-p > .dashicons {
+    color: #294a80 !important;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+div.points {
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.wizard-p > .dashicons-arrow-right-alt2 {
+    color: #294a80 !important;
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+/* inputs */
+.netping-input {
+    padding: 7px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+/* error box (red) */
+.netping-error {
+    padding: 10px;
+    color: black;
+    color: #c33e3a;
+    background-color: #ffaaa7;
+    border: 1px solid lightgray;
+}
+.netping-error > span {
+    margin-right: 5px;
+}
+
+/* message box (green) */
+.netping-message {
+    padding: 10px;
+    color: black;
+    color: #4c7329;
+    background-color: #dfefc1;
+    border: 1px solid lightgray;
+}
+.netping-message > span {
+    margin-right: 5px;
+}
+
+/* spinner loader */
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 52px;
+  height: 52px;
+  }
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  margin: 4px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #294a80 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* widget container */
+.netping-widget-container {
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 7px;
+        margin-top: 25px;
+}
+
+/* netping metrics table */
+table.netping_metrics_table {
+    width: 100%;
+    padding-right: 25px;
+}
+table.netping_metrics_table td {
+    border-bottom: 1px solid lightgray;
+    padding: 12px;
+    width: 25%;
+}
+table.netping_metrics_table td:first-child {
+    font-weight: bold;
+    font-size: 15px;
+}
+table.netping_metrics_table td small {
+    opacity: .8;
+    display: block;
+    padding-top: 5px;
+    font-weight: normal;
+}
+table.netping_metrics_table td.big {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* netping metrics table 2*/
+table.netping_metrics_table2 {
+    width: 100%;
+    padding-right: 25px;
+}
+table.netping_metrics_table2 td {
+    border-bottom: 1px solid lightgray;
+    padding: 12px;
+    width: 25%;
+}
+table.netping_metrics_table2 td:first-child {
+    font-weight: bold;
+    font-size: 15px;
+}
+table.netping_metrics_table2 td:nth-child(3) {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+table.netping_metrics_table2 td small {
+    opacity: .8;
+    display: block;
+    padding-top: 5px;
+    font-weight: normal;
+}
+
+/* netping alerts table */
+table.netping_table {
+    width: 100%;
+    padding-right: 25px;
+}
+table.netping_table td {
+    border-bottom: 1px solid lightgray;
+    padding: 12px;
+    width: 25%;
+}
+table.netping_table td small {
+    opacity: .8;
+    display: block;
+    padding-top: 5px;
+    font-weight: normal;
+}
+table.netping_table tr:first-of-type td {
+    font-weight: bold;
+    font-size: 15px;
+}
